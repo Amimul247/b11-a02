@@ -1,0 +1,247 @@
+.hide{
+  display: none;
+}
+
+
+
+
+
+@media only screen and (max-width: 576px) {
+  .display-flex{
+    width: 390px;
+
+  }
+  nav{
+    margin-bottom: 1px solid orange;
+    background-color: aliceblue;
+    width: 390px;
+    height: 70px;
+    margin: 0% auto;
+  }
+  .nav-title,
+  .nav-li,
+  .nav-contact{
+    display: none;
+  }
+  .nav-logo{
+    height: 46px;
+    width: 46px;
+    margin: 12px;
+    margin-left: -25px;
+  }
+
+                                        /* <!-- banner related styles --> */
+  header{
+    height: 825px;
+    width: 390px;
+  }
+  .banner-container{
+    flex-direction: column-reverse;
+    margin-bottom: 0px;
+    height: 725px;
+    width: 390px;
+  }
+  .banner-title{
+    font-size: 32px;
+    font-weight: bold;
+    text-align: center;
+    margin: 20px;
+  }
+  .banner-description{
+    font-size: 14px;
+    font-weight: 500;
+    text-align: center;
+    margin-bottom: 20px 30px;
+  }
+  .banner-container-left{
+    height: 252px;
+    width: 357px;
+    text-align: center;
+  }
+
+  .banner-container-right{
+    height: 413px;
+    width: 336px;
+  }
+  .kids-image{
+    height: 413px;
+    width: 336px;
+    margin: 20px 10px;
+
+}
+
+
+
+
+                          /* <!-- Standerd Curriculum Related Styles --> */
+section{
+  height: 1914px;
+  width: 390px;
+  margin: 0% auto;
+}
+.Standard-Curriculum-title-head{
+  font-size: 26px;
+  font-weight: bold;
+  text-align: center;
+}
+.standerd-container{
+  flex-direction: column;  
+  margin: 0% auto;
+}
+
+
+
+                              /* <!-- Our Stories related Styles --> */
+
+.Our-Stories{
+  height: 800px;
+  width: 390px;
+  margin: 0% auto;
+}
+.Our-Stories-Title{
+  font-size: 28px;
+  font-weight: bold;
+}
+.storis-div-01{
+  display: none;
+}
+.storis-div-02{
+  margin: 0% auto;
+}
+.storis-div-03{
+  height: 179px;
+  width: 153px;
+  position: relative;
+}
+.story-2{
+  width: 153px;
+  height: 105px;
+}
+
+
+.story-btn-02{
+  padding: 8px 14px;
+  font-weight: 500;
+  font-size: 9px;
+  color: #FFFFFF;
+  background-color: #95B226;
+  border-radius: 48px;
+  border: none;
+  position: absolute;
+  left: 12px;
+  top: 93px;
+}
+.story-btn-03{
+  padding: 8px 14px;
+  font-weight: 500;
+  font-size: 9px;
+  color: #FFFFFF;
+  background-color: #5D58F0;
+  border-radius: 48px;
+  border: none;
+  position: absolute;
+  left: 12px;
+  top: 93px;
+}
+.story-btn-04{
+  padding: 8px 14px;
+  font-weight: 500;
+  font-size: 9px;
+  color: #FFFFFF;
+  background-color: #95B226;
+  border-radius: 48px;
+  border: none;
+  position: absolute;
+  left: 12px;
+  top: 93px;
+}
+.story-btn-05{
+  padding: 8px 14px;
+  font-weight: 500;
+  font-size: 9px;
+  color: #FFFFFF;
+  background-color: #95B226;
+  border-radius: 48px;
+  border: none;
+  position: absolute;
+  left: 12px;
+  top: 93px;
+}
+
+.story-heading{
+  font-size: 10px;
+  font-weight: bold;
+  padding-left: 12px;
+  padding-top: 10px;
+}
+.black-btn{
+  margin-top:  50px;
+
+}
+
+
+
+
+                   /* <!-- Footer related styles --> */
+footer{
+  height: 642px;
+  width: 390px;
+  margin: 0% auto;
+}
+.footer-section{
+  display: flex;
+  flex-direction: column;
+  height: 642px;
+  margin-top: 50px;
+}
+.footer-section-div-01{
+  width: 320px;
+  margin-top: 10px;
+  margin-left: -100px;
+}
+.footer-section-div-02{
+  margin-left: -100px;
+  width: 320px;
+}
+.footer-section-div-03{
+  margin-left: -100px;
+}
+.footer-section-div-03 {
+  height: 220px;
+  width: 320px;
+}
+.grid{
+  height: 69px;
+  width: 250px;
+}
+.footer-image{
+  height: 69px;
+  width: 65px;
+}
+.footer-section-title{
+  font-size: 37px;
+  font-weight: bold;
+  color: #FFFFFF;
+}
+.footer-description{
+  height: 80px;
+  width: 357px;
+  font-size: 16px;
+  color: #FFFFFF;
+}
+.footer-icon{
+  margin-right: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+}
